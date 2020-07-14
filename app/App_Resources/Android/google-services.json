@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "566093879894",
+    "firebase_url": "https://n-vue-push.firebaseio.com",
+    "project_id": "n-vue-push",
+    "storage_bucket": "n-vue-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566093879894:android:9238cf31ed89da447d39f7",
+        "android_client_info": {
+          "package_name": "tech.manchesterbusiness.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566093879894-n9gobij2hf7adofm7mc1b1flou42khvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAKdf3lxzia7hmvzIXZnJLd1ppXe8RENU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566093879894-n9gobij2hf7adofm7mc1b1flou42khvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

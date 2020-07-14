@@ -1,0 +1,3 @@
+ext {
+    firebaseMessagingVersion = "20.1.0"
+}
