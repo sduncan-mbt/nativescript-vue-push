@@ -2,6 +2,21 @@
 
 > NativeScript-Vue Application using nativescript-push
 
+POST
+https://fcm.googleapis.com/fcm/send
+
+application/json
+{
+  "notification": {
+    "title": "Test Push notification",
+    "body": "Hello App"
+  },
+  "to": "UUID"
+}
+
+Authorization
+key=AAAAg83TGlY:APA91bGxqzt8UTz1vzKDbofMCd0J75H4e5sFj2ft4chZBr9loIlA8EK0jd6Sz1BfMTEAFnMUniKMwhXCgKoizlF8hxWgcJwkwbcRXHmyZO9dvZZuFu5TyCLsmQCXH_XPwI0VPomdlZrX
+
 ## Usage
 
 ``` bash
@@ -21,3 +36,4 @@ tns debug <platform>
 tns build <platform> --env.production
 
 ```
+
