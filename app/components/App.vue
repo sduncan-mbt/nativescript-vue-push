@@ -8,11 +8,9 @@
         <Button text="Check Enabled" @tap="checkEnabled" />
         <Label :text="isCheckEnabled" textWrap="true" />
         <Button text="Register" @tap="registerNotifications" />
-        <TextView :text="myToken" editable="true" />
+        <TextView :text="notificationToken" editable="true" />
         <Button text="Get Token" @tap="getToken" />
         <TextView :text="regToken" editable="true" />
-        <Label text="intToken" textWrap="true" />
-        <TextView :text="intToken" editable="true" />
       </StackLayout>
     </ScrollView>
   </Page>
@@ -25,8 +23,7 @@ export default {
     return {
       isCheckEnabled: false,
       regToken: "",
-      myToken: "",
-      intToken: "",
+      notificationToken: "",
     };
   },
   methods: {
@@ -34,11 +31,8 @@ export default {
       this.isCheckEnabled = messaging.areNotificationsEnabled();
     },
     async registerNotifications() {
-      var self = this;
-      this.myToken = await messaging.registerForPushNotifications({
-        onPushTokenReceivedCallback: (token) => {
-          self.intToken = token;
-        },
+      this.notificationToken = await messaging.registerForPushNotifications({
+        onPushTokenReceivedCallback: (token) => {},
         onMessageReceivedCallback: (message) => {},
         showNotifications: true,
         showNotificationsWhenInForeground: true,
