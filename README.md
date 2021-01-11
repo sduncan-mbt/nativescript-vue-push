@@ -15,7 +15,7 @@ application/json
 }
 
 Authorization
-key=AAAAg83TGlY:APA91bGxqzt8UTz1vzKDbofMCd0J75H4e5sFj2ft4chZBr9loIlA8EK0jd6Sz1BfMTEAFnMUniKMwhXCgKoizlF8hxWgcJwkwbcRXHmyZO9dvZZuFu5TyCLsmQCXH_XPwI0VPomdlZrX
+key=lostOFchars
 
 ## Usage
 
